@@ -49,6 +49,14 @@
 
 ### Client-sided setup 
 
+#### MapleStory v83 game installation
+
+1. Download `heavenms-client-setup.zip` into the folder [external-files/downloads](external-files/downloads) from following google-drive link
+   * [...](...)
+2. Extract contents
+3. Execute `ManagerMsv83.exe` and install MapleStory v83 to desired location (referred to as `game folder` from now on)
+4. 
+
 ### Client-sided execution
 
 ---
