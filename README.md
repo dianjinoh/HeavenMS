@@ -15,6 +15,11 @@
 
 #### Database communication
 
+* Add MySQL as new database connection
+![ide-config-2.png](p-docs/screenshot/ide-config-2.png)
+* Setup configurations
+![ide-config-3.png](p-docs/screenshot/ide-config-3.png)
+* 
 ### Server-sided setup
 #### Server to Database communication
   * [config.yaml](config.yaml)
