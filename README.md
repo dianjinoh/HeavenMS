@@ -38,7 +38,8 @@
 * To bootup the server, run the following java file as main application:
   * [src/net/server/Server.java](src/net/server/Server.java)
 ![server-1.png](p-docs/screenshot/server-1.png)
-  * 
+  * On successful server start-up, following screen will be shown in console
+![server-2.png](p-docs/screenshot/server-2.png)
 
 ### Client-sided setup 
 
