@@ -69,7 +69,7 @@
 ### Client-sided execution
 
 1. Goto `game folder` and double click on `HeavenMS-localhost-WINDOW.exe` to start
-2. TODO see if it works: edit server IP address to local machine IP address and connect to it, add in guide
+2. TODO see if it works: edit server IP address to local machine IP address and connect to it. add in game client IP editting guide
 
 ---
 
