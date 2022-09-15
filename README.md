@@ -51,11 +51,17 @@
 
 #### MapleStory v83 game installation
 
-1. Download `heavenms-client-setup.zip` into the folder [external-files/downloads](external-files/downloads) from following google-drive link
+1. In antivirus programs, whitelist the folder [external-files/downloads](external-files/downloads) (referred to as `downloads` from here on)
+2. Download `heavenms-client-setup.zip` into `downloads` from the following google-drive link
    * [...](...)
-2. Extract contents
-3. Execute `ManagerMsv83.exe` and install MapleStory v83 to desired location (referred to as `game folder` from now on)
-4. 
+3. Extract zipped contents into `downloads`
+4. From `downloads` execute `ManagerMsv83.exe` and install MapleStory v83 to desired location (referred to as the `game folder` from here on)
+5. Go to `game folder` and delete the following files:
+   * `HShield` (folder)
+   * `ASPLnchr.exe`
+   * `MapleStory.exe`
+   * `Patcher.exe`
+6. ...
 
 ### Client-sided execution
 
