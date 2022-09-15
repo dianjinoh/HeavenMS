@@ -1,12 +1,28 @@
-﻿## Setup
+﻿### IDE setup
 
-### IDE
+#### Project structure
 
 File > Project Structure...
 ![screenshot/ide-config-1.png](screenshot/ide-config-1.png)
 
-### Server related
+#### Database communication
 
+### Server setup
+* Server to Database communication
+  * [config.yaml](config.yaml)
+	```
+	#Database Configuration
+    DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
+    DB_USER: "root"
+    DB_PASS: "root"
+    DB_CONNECTION_POOL: true
+	```
+
+### Server execution
+
+### Client setup 
+
+### Client execution
 
 ---
 
