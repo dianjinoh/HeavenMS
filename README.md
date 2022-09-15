@@ -2,7 +2,7 @@
 
 #### MySQL in docker
 
-* MySQL version 5 required due to core library `mysql-connector-java-bin.jar` with `Implementation-Version: 5.1.6` 
+* `MySQL version 5` is required due to core library `mysql-connector-java-bin.jar` with `Implementation-Version: 5.1.6` 
 * Execute command in terminal: 
      >docker run -d --name heavenms-mysql --net heavenms-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=heavenms -p 3306:3306 mysql:5
 * TODO see if it works: Load `.sql` [scripts](sql) into `MySQL server` using `DBeaver`. Order of load execution:
