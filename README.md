@@ -1,12 +1,12 @@
 ﻿### Database setup
 
-#### MySQL on docker
+#### MySQL in docker
 
 * MySQL version 5 required due to core library `mysql-connector-java-bin.jar` with `Implementation-Version: 5.1.6` 
 * Execute command in terminal: 
  	>docker run -d --name heavenms-mysql --net heavenms-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=heavenms -p 3306:3306 mysql:5
 
-### IDE setup
+### IntelliJ IDE setup
 
 #### Project structure
 
@@ -15,14 +15,16 @@
 
 #### Database communication
 
-* Add MySQL as new database connection
+* Add `MySQL` as new database connection
 ![ide-config-2.png](p-docs/screenshot/ide-config-2.png)
 * Setup configurations
 ![ide-config-3.png](p-docs/screenshot/ide-config-3.png)
-* 
+
 ### Server-sided setup
+
 #### Server to Database communication
-  * [config.yaml](config.yaml)
+
+  * Edit file [config.yaml](config.yaml)
     ```
     #Database Configuration
     DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
@@ -30,7 +32,6 @@
     DB_PASS: "root"
     DB_CONNECTION_POOL: true
     ```
-* 
 
 ### Server-sided execution
 
