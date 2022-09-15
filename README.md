@@ -24,16 +24,21 @@
 
 #### Server to Database communication
 
-  * Edit file [config.yaml](config.yaml)
-    ```
-    #Database Configuration
-    DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
-    DB_USER: "root"
-    DB_PASS: "root"
-    DB_CONNECTION_POOL: true
-    ```
+* Edit file [config.yaml](config.yaml)
+  ```
+  #Database Configuration
+  DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
+  DB_USER: "root"
+  DB_PASS: "root"
+  DB_CONNECTION_POOL: true
+  ```
 
 ### Server-sided execution
+
+* To bootup the server, run the following java file as main application:
+  * [src/net/server/Server.java](src/net/server/Server.java)
+![server-1.png](p-docs/screenshot/server-1.png)
+  * 
 
 ### Client-sided setup 
 
