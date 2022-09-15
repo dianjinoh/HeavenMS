@@ -4,7 +4,13 @@
 
 * MySQL version 5 required due to core library `mysql-connector-java-bin.jar` with `Implementation-Version: 5.1.6` 
 * Execute command in terminal: 
- 	>docker run -d --name heavenms-mysql --net heavenms-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=heavenms -p 3306:3306 mysql:5
+     >docker run -d --name heavenms-mysql --net heavenms-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=heavenms -p 3306:3306 mysql:5
+* Load `.sql` [scripts](sql) into `MySQL server` using `DBeaver`. Order of load execution:
+  1. [sql/db_database.sql](sql/db_database.sql)
+  2. [sql/db_drops.sql](sql/db_drops.sql)
+  3. [sql/db_shopupdate.sql](sql/db_shopupdate.sql) ***[OPTIONAL]***
+* [*Alternatively*] Start up docker container if it already exists:
+    >docker container start heavenms-mysql
 
 ### IntelliJ IDE setup
 
