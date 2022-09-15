@@ -53,7 +53,7 @@
 
 1. In antivirus programs, whitelist the folder [external-files/downloads](external-files/downloads) (referred to as `downloads` from here on)
 2. Download `heavenms-client-setup.zip` into `downloads` from the following google-drive link
-   * [...](...)
+   * [https://drive.google.com/file/d/1B9wgMAs0LJT85WaC6dEb1Cq26HXFXv06/view?usp=sharing](https://drive.google.com/file/d/1B9wgMAs0LJT85WaC6dEb1Cq26HXFXv06/view?usp=sharing)
 3. Extract zipped contents into `downloads`
 4. From `downloads` execute `ManagerMsv83.exe` and install MapleStory v83 to desired location (referred to as the `game folder` from here on)
 5. Go to `game folder` and delete the following files:
@@ -68,8 +68,8 @@
 
 ### Client-sided execution
 
-* Double click on maplestory.exe, set compatibility
-* TODO see if it works: edit server IP address to connect to
+1. Goto `game folder` and double click on `HeavenMS-localhost-WINDOW.exe` to start
+2. TODO see if it works: edit server IP address to local machine IP address and connect to it, add in guide
 
 ---
 
