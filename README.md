@@ -3,7 +3,7 @@
 #### Project structure
 
 File > Project Structure...
-![screenshot/ide-config-1.png](screenshot/ide-config-1.png)
+![ide-config-1.png](p-docs/screenshot/ide-config-1.png)
 
 #### Database communication
 
