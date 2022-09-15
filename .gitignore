@@ -1,4 +1,6 @@
 ﻿ide-autogen/*
+external-files/downloads/heavenms-client-setup
+external-files/downloads/heavenms-client-setup.zip
 
 /logs/**
 .idea/
