@@ -5,7 +5,7 @@
 * MySQL version 5 required due to core library `mysql-connector-java-bin.jar` with `Implementation-Version: 5.1.6` 
 * Execute command in terminal: 
      >docker run -d --name heavenms-mysql --net heavenms-net -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=heavenms -p 3306:3306 mysql:5
-* Load `.sql` [scripts](sql) into `MySQL server` using `DBeaver`. Order of load execution:
+* TODO see if it works: Load `.sql` [scripts](sql) into `MySQL server` using `DBeaver`. Order of load execution:
   1. [sql/db_database.sql](sql/db_database.sql)
   2. [sql/db_drops.sql](sql/db_drops.sql)
   3. [sql/db_shopupdate.sql](sql/db_shopupdate.sql) ***[OPTIONAL]***
@@ -61,9 +61,15 @@
    * `ASPLnchr.exe`
    * `MapleStory.exe`
    * `Patcher.exe`
-6. ...
+6. From `downloads` 
+   1. Copy `HeavenMS-localhost-WINDOW.exe` into the `game folder`
+   2. Extract all `.wz` files from `commit397_wz.zip` into the `game folder` and **replace existing files**
+7. ...
 
 ### Client-sided execution
+
+* Double click on maplestory.exe, set compatibility
+* TODO see if it works: edit server IP address to connect to
 
 ---
 
