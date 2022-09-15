@@ -1,4 +1,16 @@
-﻿<img src="https://heavenmssurveyhome.files.wordpress.com/2018/12/heavenmslogo.png"  width="370" height="auto">
+﻿## Setup
+
+### IDE
+
+File > Project Structure...
+![screenshot/ide-config-1.png](screenshot/ide-config-1.png)
+
+### Server related
+
+
+---
+
+<img src="https://heavenmssurveyhome.files.wordpress.com/2018/12/heavenmslogo.png"  width="370" height="auto">
 
 ## Head developer: Ronan C. P. Lana
 
