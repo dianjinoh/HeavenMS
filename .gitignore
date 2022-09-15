@@ -1,4 +1,6 @@
-﻿/logs/**
+﻿ide-autogen/*
+
+/logs/**
 .idea/
 
 # build files
