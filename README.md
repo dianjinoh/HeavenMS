@@ -95,6 +95,7 @@
    1. Not sure why but if only one `game client` is launched, it will be terminated automatically after a few seconds (see this happening in task manager)
          * ![game-client-2.gif](external-files/screenshot/game-client-2.gif)
 2. ***Important:*** the `game client` server connection IP address must align to the one declared in the server file [config.yaml](config.yaml). If not weird issues will occur such as being kicked back to the login screen upon selection of game channel in game.
+3. There is **no need** to create an account manually in the database. The server is set to automatically create new account with the current username and password logging in if it is the first time being used/does not exists in the DB.
 
 ---
 
