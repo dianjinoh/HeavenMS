@@ -17,14 +17,14 @@
 #### Project structure
 
 * File > Project Structure...
-![ide-config-1.png](external-files/screenshot/ide-config-1.png)
+  * ![ide-config-1.png](external-files/screenshot/ide-config-1.png)
 
 #### Database communication
 
 * Add `MySQL` as new database connection
-![ide-config-2.png](external-files/screenshot/ide-config-2.png)
+  * ![ide-config-2.png](external-files/screenshot/ide-config-2.png)
 * Setup configurations
-![ide-config-3.png](external-files/screenshot/ide-config-3.png)
+  * ![ide-config-3.png](external-files/screenshot/ide-config-3.png)
 
 ### Server-sided setup
 
@@ -43,9 +43,9 @@
 
 * To bootup the server, run the following java file as main application:
   * [src/net/server/Server.java](src/net/server/Server.java)
-![server-1.png](external-files/screenshot/server-1.png)
-  * On successful server start-up, following screen will be shown in console
-![server-2.png](external-files/screenshot/server-2.png)
+    * ![server-1.png](external-files/screenshot/server-1.png)
+* On successful server start-up, following screen will be shown in console
+  * ![server-2.png](external-files/screenshot/server-2.png)
 
 ### Client-sided setup 
 
