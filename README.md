@@ -28,16 +28,30 @@
 
 ### Server-sided setup
 
-#### Server to Database communication
+#### edit file [config.yaml](config.yaml)
 
-* Edit file [config.yaml](config.yaml)
-  ```
-  #Database Configuration
-  DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
-  DB_USER: "root"
-  DB_PASS: "root"
-  DB_CONNECTION_POOL: true
-  ```
+* for Server to Database communication:
+  * DB_URL: database connection 
+  * DB_USER: db username
+  * DB_PASS: db user password
+  * DB_CONNECTION_POOL: keep this as **true**
+    ```
+    #Database Configuration
+    DB_URL: "jdbc:mysql://localhost:3306/heavenms?allowPublicKeyRetrieval=true&useSSL=false"
+    DB_USER: "root"
+    DB_PASS: "root"
+    DB_CONNECTION_POOL: true
+    ```
+* for game clients to connect to the server:
+  * Host: the ip that will be exposed to the public for clients to connect
+  * LOCALSERVER: ??? not tested
+  * GMSERVER: ??? not tested
+    ```
+    #Ip Configuration
+    HOST: 192.168.1.40
+    LOCALSERVER: true
+    GMSERVER: false
+    ```
 
 ### Server-sided execution
 
