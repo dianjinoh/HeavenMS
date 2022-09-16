@@ -44,6 +44,7 @@
     ```
 * for game clients to connect to the server:
   * Host: the ip that will be exposed to the public for clients to connect
+    * This config is especially important and must align with the IP configured in the .exe game client
   * LOCALSERVER: ??? not tested
   * GMSERVER: ??? not tested
     ```
@@ -76,14 +77,24 @@
    * `MapleStory.exe`
    * `Patcher.exe`
 6. From `downloads` 
-   1. Copy `HeavenMS-localhost-WINDOW.exe` into the `game folder`
-   2. Extract all `.wz` files from `commit397_wz.zip` into the `game folder` and **replace existing files**
+   1. Use `HeavenMS-localhost-WINDOW.exe` or `192.168.1.40.exe` (referred to as the `game client` from here on). The provided `game client` will connect to the game server using the following IP:
+      1. `HeavenMS-localhost-WINDOW.exe`: **127.0.0.1**
+      2. `192.168.1.40.exe`: **192.168.1.40**
+   2. To change the server connection IP: 
+      1. make a copy of the `game client`
+      2. open it in HxD application (install it using `HxDSetup.exe` located in `downloads` folder)
+      3. replace the existing IP addresses (3x of it) to match the server IP address. (Hit your keyboard's `insert button` if HxD is not in overwrite mode)
+         * ![game-client-1.gif](external-files/screenshot/game-client-1.gif)
+   3. Copy `game client` into the `game folder`
+   4. Extract all `.wz` files from `commit397_wz.zip` into the `game folder` and **replace existing files**
 7. ...
 
 ### Client-sided execution
 
-1. Goto `game folder` and double click on `HeavenMS-localhost-WINDOW.exe` to start
-2. TODO see if it works: edit server IP address to local machine IP address and connect to it. add in game client IP editting guide
+1. Go to `game folder` and launch two copies of `game client` in quick succession to start the game
+   1. Not sure why but if only one `game client` is launched, it will be terminated automatically after a few seconds (see this happening in task manager)
+         * ![game-client-2.gif](external-files/screenshot/game-client-2.gif)
+2. ***Important:*** the `game client` server connection IP address must align to the one declared in the server file [config.yaml](config.yaml). If not weird issues will occur such as being kicked back to the login screen upon selection of game channel in game.
 
 ---
 
