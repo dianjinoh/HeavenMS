@@ -97,6 +97,49 @@
 2. ***Important:*** the `game client` server connection IP address must align to the one declared in the server file [config.yaml](config.yaml). If not weird issues will occur such as being kicked back to the login screen upon selection of game channel in game.
 3. There is **no need** to create an account manually in the database. The server is set to automatically create new account with the current username and password logging in if it is the first time being used/does not exists in the DB.
 
+### Changing a character to a GM character
+ 2. Connect to your MySQL server with the parameters used while setting up
+ 3. Expand the **heavenms** database
+ 4. Click on the **characters** table
+ 6. Find the row with the character who will be a GM
+ 7. Change the **`gm`** column to one of the following values:
+    * 0: Common
+    * 1: Donator
+    * 2: JrGM
+    * 3: GM
+    * 4: SuperGM
+    * 5: Developer
+    * 6: Admin
+ 8. Save and commit changes
+
+### WZ Editing
+I am going to go over how to WZ Edit with using Heena as an example. I want to change the dialogue when you talk to her. The dialogue is either in the scripts as a .js file or in the .wz files. In this example it is the .wz file. Procedure may differ based on different scenarios but hopefully this will get you an idea on how navigate the .wz file and the basics of editing.
+ 1. Extract **HaSuite-211.7z** in the `downloads` folder
+ 2. Navigate into the extracted folder
+ 3. Open **HaRepacker.exe**
+ 4. Change **BMS\GMS\MSEA** to **GMS (old)** in the drop-down menu
+ 5. Click **File**
+ 6. Click **Open...**
+ 7. Navigate into the `game client` folder
+ 8. Click **String.wz**
+ 9. Click **Open**
+ 10. Expand **String.wz**
+ 11. Double-click on **Npc.img**
+ 12. Find **2101**
+ 13. Expand **2101**
+ 14. Click **d0**
+ 15. Change **traveller** to **traveler**
+ 16. Click **Apply Changed Value**
+ * ```Make sure maplestory is closed before proceeding, otherwise you will receive an unhandled excepetion error and you will have to redo your changes```
+ 17. Click **File**
+ 18. Click **Save...**
+ 19. Click **Save** again
+ 20. Click **String.wz**
+ 21. Click **Save** for the last time
+ 22. Click **Yes**
+ 23. Close **HaRepacker.exe**
+
+
 ---
 
 <img src="https://heavenmssurveyhome.files.wordpress.com/2018/12/heavenmslogo.png"  width="370" height="auto">
