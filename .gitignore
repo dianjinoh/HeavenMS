@@ -1,6 +1,7 @@
 ﻿ide-autogen/*
 external-files/downloads/heavenms-client-setup
 external-files/downloads/heavenms-client-setup.zip
+external-files/downloads/HaSuite-211
 
 /logs/**
 .idea/
